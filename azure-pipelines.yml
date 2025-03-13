@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  name: OCI_ARM_Machine  # Updated to your new agent pool
+  name: Test  
 
 steps:
 - task: JavaToolInstaller@1
