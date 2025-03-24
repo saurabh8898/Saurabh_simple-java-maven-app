@@ -25,6 +25,6 @@ steps:
 - task: NexusIqPipelineTask@2
   inputs:
     nexusIqService: 'Sontype_Test'
-    applicationId: 'Azure_Maven_app'
+    applicationId: 'demo_app'
     stage: 'Build'
     scanTargets: '**/target/*.jar'
